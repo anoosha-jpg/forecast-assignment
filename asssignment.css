@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+    background-color: rgb(24, 24, 102);
+    color: aliceblue;
+    text-indent: 10px;
+}
+.heading{
+    font-size: 30px;
+    text-shadow: 5px 5px 20px yellow;
+}
+.child{
+    border: 1px solid black;
+    background-color: rgba(95, 85, 241, 0.582);
+    width: 400px;
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    box-shadow:  5px 5px 10px inset white;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-inline: 30px;
+    box-shadow: 5px 5px 10px rgb(82, 80, 80);
+} 
+ span{
+    float: right;
+ }
+.a{
+    background-color: yellow;
+    box-shadow: 5px 5px 10px rgb(82, 80, 80);
+}
